@@ -1,0 +1,17 @@
+kits:
+  starter: # This is the name of the kit
+    kitid: 2 # The itemstack that will be displayed as an 'icon' to represent said kit.
+    kititems:
+      10
+      15
+      25
+      34
+  donator: # This is the name of the kit, again
+    kitid: 2 # The itemstack that will be displayed as an 'icon' to represent said kit.
+    kititems:
+      23
+      54
+      453
+      234
+      123
+      54
