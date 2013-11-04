@@ -2,7 +2,14 @@ name: Hungry Games
 main: com.dakanndesigns.hungrygames.HungryGames
 version: 1.0.0.b1
 depend: [WorldEdit, Vault]
-authors: [DJenkinsVD]
+authors: [DJenkinsVD, vampre1122]
+
+commands:
+  hungrygames:
+    description: Base hungrygames command.
+    aliases: [hg]
+    usage: |
+    /hg - Main command tells the version and the author.
 
 permissions:
   hungrygames.player.admin:
