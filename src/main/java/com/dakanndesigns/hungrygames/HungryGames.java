@@ -1,6 +1,6 @@
 package com.dakanndesigns.hungrygames;
 
-import com.dakanndesigns.hungrygames.events.PlayerEvents;
+import com.dakanndesigns.hungrygames.listeners.PlayerEvents;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
