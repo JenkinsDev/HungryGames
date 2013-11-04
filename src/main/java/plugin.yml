@@ -2,3 +2,15 @@ name: Hungry Games
 main: com.dakanndesigns.hungrygames.HungryGames
 version: 1.0.0.b1
 depend: [WorldEdit, Vault]
+authors: [DJenkinsVD]
+
+permissions:
+  hungrygames.player.admin:
+    description: Ability to create, delete, and do any command related to HungryGames.
+    default: op
+  hungrygames.player.mod:
+    description: Ability to force start an arena and to teleport players.
+    default: op
+  hungrygames.player.user:
+    description: Ability to join, vote and leave the arena.
+    default: true
