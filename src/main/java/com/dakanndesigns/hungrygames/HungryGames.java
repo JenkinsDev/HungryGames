@@ -14,11 +14,11 @@ public class HungryGames extends JavaPlugin {
     public void onEnable()
     {
         // Lets load up our default config file in case it is empty
-        this.saveDefaultConfig();
+        saveDefaultConfig();
 
         getServer().getPluginManager().registerEvents(new PlayerEvents(), this);
 
-        // Setup a static property for use within our code.
+        // Setup a static property for use within our 'external' code.
         plugin = this;
     }
 

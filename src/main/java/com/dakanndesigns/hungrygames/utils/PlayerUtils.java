@@ -39,16 +39,13 @@ public class PlayerUtils {
      *
      * @param message  The message that should be sent to players in the match.
      */
-    public void sendPlayersInGameMessage(String match, String message)
+    public void sendPlayersInMatchMessage(String match, String message)
     {
         for (Player player : HungryGames.plugin.getServer().getOnlinePlayers())
         {
             Object metaData = getPlayerMetadataValue(player, "hungrygames.in.game");
 
-            if (metaData == null)
-                continue;
-
-            if (metaData != match)
+            if (metaData == null || metaData != match)
                 continue;
 
             player.sendMessage(ChatColor.AQUA + message);

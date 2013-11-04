@@ -1,3 +1,6 @@
+deathmessages:
+  falling: "{Victim} fell to their death!" # Use {Victim} to insert the player's name that died
+  generic: "{Enemy} beat down {Victim}!"   # Use {Enemy} to insert the player's name that killed the victim.
 kits:
   starter: # This is the name of the kit
     kitid: 2 # The itemstack that will be displayed as an 'icon' to represent said kit.
