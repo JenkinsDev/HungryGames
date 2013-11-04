@@ -8,6 +8,8 @@ import org.bukkit.plugin.java.JavaPlugin;
  * Creator: David Jenkins
  */
 public class HungryGames extends JavaPlugin {
+    public static HungryGames plugin;
+
     @Override
     public void onEnable()
     {
@@ -15,6 +17,9 @@ public class HungryGames extends JavaPlugin {
         this.saveDefaultConfig();
 
         getServer().getPluginManager().registerEvents(new PlayerEvents(), this);
+
+        // Setup a static property for use within our code.
+        plugin = this;
     }
 
     @Override
