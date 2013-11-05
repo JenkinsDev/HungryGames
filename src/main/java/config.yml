@@ -1,20 +1,24 @@
 deathmessages:
-  falling: "{Victim} fell to their death!" # Use {Victim} to insert the player's name that died
+  fell: "{Victim} fell to their death!" # Use {Victim} to insert the player's name that died
   generic: "{Enemy} beat down {Victim}!"   # Use {Enemy} to insert the player's name that killed the victim.
+  burnt: "{Victim} has been burnt to a crisp!"
+  flawless: "{Enemy} has flawlessly slain {Victim}!"
+  dog: "{Victim} has been ripped apart by a hound!"
+  ghast: "{Victim} has been burnt to a crisp by a ghast!"
 kits:
   starter: # This is the name of the kit
     kitid: 2 # The itemstack that will be displayed as an 'icon' to represent said kit.
     kititems:
-      10
-      15
-      25
-      34
+      - 10
+      - 15
+      - 25
+      - 34
   donator: # This is the name of the kit, again
     kitid: 2 # The itemstack that will be displayed as an 'icon' to represent said kit.
     kititems:
-      23
-      54
-      453
-      234
-      123
-      54
+      - 23
+      - 54
+      - 453
+      - 234
+      - 123
+      - 54

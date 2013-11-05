@@ -8,8 +8,7 @@ commands:
   hungrygames:
     description: Base hungrygames command.
     aliases: [hg]
-    usage: |
-    /hg - Main command tells the version and the author.
+    usage: /hg - Main command tells the version and the author.
 
 permissions:
   hungrygames.player.admin:

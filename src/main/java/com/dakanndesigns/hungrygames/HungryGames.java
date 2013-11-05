@@ -1,6 +1,7 @@
 package com.dakanndesigns.hungrygames;
 
 import com.dakanndesigns.hungrygames.listeners.PlayerEvents;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -9,6 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 public class HungryGames extends JavaPlugin {
     public static HungryGames plugin;
+    public static FileConfiguration pluginConfig;
 
     @Override
     public void onEnable()
@@ -20,6 +22,7 @@ public class HungryGames extends JavaPlugin {
 
         // Setup a static property for use within our 'external' code.
         plugin = this;
+        pluginConfig = getConfig();
     }
 
     @Override
@@ -27,4 +30,6 @@ public class HungryGames extends JavaPlugin {
     {
 
     }
+
+
 }

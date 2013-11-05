@@ -1,6 +1,6 @@
 package com.dakanndesigns.hungrygames.utils;
 
-import com.dakanndesigns.hungrygames.enums.Chat;
+import com.dakanndesigns.hungrygames.enums.ChatStrings;
 import com.sk89q.worldedit.bukkit.WorldEditPlugin;
 import com.sk89q.worldedit.bukkit.selections.Selection;
 import org.bukkit.Bukkit;
@@ -28,7 +28,7 @@ public class WorldEditUtils {
         Selection selection = worldEdit.getSelection(player);
 
         if (selection == null)
-            playerUtils.sendPlayerErrorMessage(player, Chat.WORLD_EDIT_REGION_NEEDED.getMessage());
+            playerUtils.sendPlayerErrorMessage(player, ChatStrings.WORLD_EDIT_REGION_NEEDED.getMessage());
 
         World world = selection.getWorld();
         Location min = selection.getMinimumPoint();
